@@ -1,45 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <script src="about.js"></script>
+    <script src="https://kit.fontawesome.com/1b9375a91d.js" crossorigin="anonymous"></script>
+
 
     <title>About</title>
   </head>
   <body>
-    <script src="https://kit.fontawesome.com/1b9375a91d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="about.css">
    
-    <nav id="mainNavbar" class="navbar navbar-expand-sm navbar-dark bg-dark py-0 fixed-top">
-      <a class="navbar-brand" href="#">LOGO</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light dark_back pl-3 pr-3">
+      <a class="navbar-brand pl-3" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <div class="justify-content-end collapse navbar-collapse pl-5 pr-5" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item active"> 
+          <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Features</a>
           </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#">Pricing</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
+       
         </ul>
       </div>
     </nav>
 
-    <div class="jumbotron jumbotron-fluid mx-0">
+    <div class="jumbotron jumbotron-fluid m-0">
       <div class="container">
         <h1 class="display-4">INSERT IMAGE HERE</h1>
         <p class="lead">AS A BACKGROUND OF JUMBOTRON</p>
@@ -66,15 +72,15 @@
     </section>
 
     <hr>
-    <h2 class="text-center">Founders Talk</h2>
+    <h2 class="text-center my-3">Founders Talk</h2>
 
-    <section class="container-fluid px-0 my-5">
+    <section class="container-fluid px-0 m-0">
       <div class="row text-center align-items-center">
         <div class="col-md-6"> 
-          <img class="img-fluid" src="https://www.hdwallpapers.in/thumbs/2019/batman_4k_3-t2.jpg">
+          <img class="img-fluid" src="https://images.pexels.com/photos/904381/pexels-photo-904381.jpeg?cs=srgb&dl=two-women-uses-smartphones-904381.jpg&fm=jpg">
         </div>
         <div class="col-md-6">
-          <h2>THE BAT</h2>
+          <h2 class="my-3">HEADING</h2>
           <P class="lead">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In exercitationem suscipit rem illum ducimus sit itaque nobis nemo animi natus, eaque iusto fugiat velit beatae quasi dolor repudiandae, maiores expedita.
           </P>
@@ -83,16 +89,16 @@
       </div>
     </section>
 
-    <section class="container-fluid px-0 my-5">
+    <section class="container-fluid px-0 m-0">
       <div class="row text-center align-items-center">
         <div class="col-md-6 order-2 order-md-1"> 
-          <h2>THE ALIEN</h2>
+          <h2 class="my-3">HEADING</h2>
           <P class="lead">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In exercitationem suscipit rem illum ducimus sit itaque nobis nemo animi natus, eaque iusto fugiat velit beatae quasi dolor repudiandae, maiores expedita.
           </P>
         </div>
         <div class="col-md-6 order-1 order-md-2">
-          <img class="img-fluid" src="https://www.hdwallpapers.in/thumbs/2013/superman_in_man_of_steel-t2.jpg">
+          <img class="img-fluid" src="https://images.pexels.com/photos/1038628/pexels-photo-1038628.jpeg?cs=srgb&dl=closeup-photo-of-silver-iphone-7-plus-with-earpods-1038628.jpg&fm=jpg">
         </div>
       </div>
     </section>
@@ -102,72 +108,13 @@
 
     
     <section >
-      <div class="carousel slide carousel-fade" data-ride="carousel" id="postsCarousel">
-       
-       
-        <div class="container p-t-0 m-t-2 carousel-inner">
-            <div class="row row-equal carousel-item active m-t-0">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 1">
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 2">
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="http://i.imgur.com/g27lAMl.png" alt="Carousel 3">
-                        </div>
-                      
-                    </div>
-                </div>
-            </div>
-            <div class="row row-equal carousel-item m-t-0">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="https://www.hdwallpapers.in/thumbs/2015/batman_v_superman_wonder_woman-t2.jpg" alt="Carousel 4">
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="https://www.hdwallpapers.in/thumbs/2015/batman_v_superman_batman-t2.jpg" alt="Carousel 5">
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-sm-4 fadeIn wow">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="https://www.hdwallpapers.in/thumbs/2015/superman_in_batman_v_superman-t2.jpg" alt="Carousel 6">
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-      </div>
+      
     </section>
       
 
 
     <hr>
     <h2 class="text-center">Our Testimonials</h2>
-
 
     <div class="bd-example">
       <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
@@ -178,21 +125,21 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active " data-interval="2000">
-            <img src="https://images.unsplash.com/photo-1559107749-09d30cc1d9bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="d-block w-100">
+            <img src="https://images.pexels.com/photos/56904/pexels-photo-56904.jpeg?cs=srgb&dl=iphone-lightning-connector-technology-reflection-56904.jpg&fm=jpg" class="d-block w-100">
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
           </div>
           <div class="carousel-item" data-interval="2000">
-            <img src="https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="d-block w-100">
+            <img src="https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?cs=srgb&dl=silver-iphone-x-with-airpods-788946.jpg&fm=jpg" class="d-block w-100">
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
           <div class="carousel-item" data-interval="2000">
-            <img src="https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="d-block w-100">
+            <img src="https://images.pexels.com/photos/441795/pexels-photo-441795.jpeg?cs=srgb&dl=android-android-phone-baking-breakfast-441795.jpg&fm=jpg" class="d-block w-100">
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -214,37 +161,35 @@
 
     <section class="container-fluid">
       <div class="row my-3">
-        <div class="col-sm-4">
+        <div class="col-sm-2">
             <div class="thumbnail">
-                <img class="img-fluid" src="https://www.hdwallpapers.in/thumbs/2019/avengers_4_endgame_superheroes-t2.jpg">
+                <img class="img-fluid" src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?cs=srgb&dl=abstract-art-blur-bright-373543.jpg&fm=jpg">
             </div> 
         </div>   
-        <div class="col-sm-4">
+        <div class="col-sm-2">
             <div class="thumbnail">
-                <img class="img-fluid" src="https://www.hdwallpapers.in/thumbs/2017/justice_league_superheroes_artwork_4k_8k-t2.jpg">
+                <img class="img-fluid" src="https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?cs=srgb&dl=blank-business-composition-computer-373076.jpg&fm=jpg">
             </div> 
         </div>   
-        <div class="col-sm-4">
+        <div class="col-sm-2">
             <div class="thumbnail">
-                <img class="img-fluid" src="https://www.hdwallpapers.in/thumbs/2017/dc_comics_superheroes_5k-t2.jpg">
+                <img class="img-fluid" src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?cs=srgb&dl=apple-coffee-computer-desk-356056.jpg&fm=jpg">
             </div> 
         </div>   
-    </div>
 
-    <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-2">
             <div class="thumbnail">
-                <img class="img-fluid" src="https://www.hdwallpapers.in/thumbs/2012/batman_superhero_dark_knight_rises-t2.jpg">
+                <img class="img-fluid" src="https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=photo-of-person-typing-on-computer-keyboard-735911.jpg&fm=jpg">
             </div> 
         </div>   
-        <div class="col-sm-4">
+        <div class="col-sm-2">
             <div class="thumbnail">
-                <img class="img-fluid" src="https://www.hdwallpapers.in/thumbs/2019/spider_man_into_the_spider_verse_4k_8k_4-t2.jpg">
+                <img class="img-fluid" src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?cs=srgb&dl=black-iphone-7-on-brown-table-699122.jpg&fm=jpg">
             </div> 
         </div>   
-        <div class="col-sm-4">
+        <div class="col-sm-2">
             <div class="thumbnail">
-                <img class="img-fluid" src="https://www.hdwallpapers.in/thumbs/2019/batman_v_superman_2-t2.jpg">
+                <img class="img-fluid" src="https://images.pexels.com/photos/892769/pexels-photo-892769.jpeg?cs=srgb&dl=person-holding-iphone-x-and-ballpoint-pen-892769.jpg&fm=jpg">
             </div> 
         </div>   
     </div>
@@ -254,6 +199,7 @@
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
